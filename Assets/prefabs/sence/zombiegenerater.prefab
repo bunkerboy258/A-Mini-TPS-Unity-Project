@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8383280009158915481
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 561447378405103158}
+  - component: {fileID: 3627381423614592961}
+  m_Layer: 0
+  m_Name: zombiegenerater
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &561447378405103158
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383280009158915481}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 56.34, y: 64.417534, z: 250.45}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3627381423614592961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8383280009158915481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfa2ad713f90e224ab45316f1753a263, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  generatenummax: 20
+  generatedis: 100
+  zombiePrefabs:
+  - {fileID: 4009691887001087670, guid: 8eafa5cf2a48c1446bac7931953f3585, type: 3}
+  - {fileID: 2533829862592532687, guid: 28ddecfda197f1840b39fdc4e18dc2fa, type: 3}
+  - {fileID: 3639419800552038428, guid: f41ef727571f2a24aa0c5928cc5809cf, type: 3}
+  - {fileID: 9043424741010885491, guid: abe61892ae42fbd439c6cf57cb764fa1, type: 3}
+  - {fileID: 1504288130958985382, guid: ba01a6ee6fe11f644b0356ecbb32fc5e, type: 3}
+  - {fileID: 5660716501808819456, guid: 937cc7ea53175e1458dbd08ad980f1fd, type: 3}
+  - {fileID: 7960271985258830307, guid: 9d1d9e51d2a3e6d4bb8ccc8d7afe8b2f, type: 3}
+  numzombiestyle: 7
+  target: {fileID: 8184893433676835753, guid: be3ece9d900bb2345a97b498107e6853, type: 3}
+  roarClips:
+  - {fileID: 8300000, guid: cc5cf1c60fb52c44f8a195941a8f6f0f, type: 3}
+  - {fileID: 8300000, guid: 26a48a139f03fc54aadff019b9c1d931, type: 3}
+  - {fileID: 8300000, guid: 6730bd3da63154e4b8ab3169fb5a2eda, type: 3}
+  attackClips:
+  - {fileID: 8300000, guid: 04e0addcb8e9cb046b0e84e06d011358, type: 3}
+  - {fileID: 8300000, guid: 28b1a9af21e186749beddd6f22b45ce7, type: 3}
+  - {fileID: 8300000, guid: 909d820949caa614ab0492095fa3bcff, type: 3}
+  behitClips:
+  - {fileID: 8300000, guid: b777b31ecbb888e40b69c3fa255669dd, type: 3}
+  - {fileID: 8300000, guid: e80e81fba8053dd44894d4258af4047d, type: 3}
+  - {fileID: 8300000, guid: fc01419e7ab09194380ee47cac337dea, type: 3}
+  deadClips:
+  - {fileID: 8300000, guid: ffe40d2dc4dcd124284997abc61b8cb5, type: 3}
+  - {fileID: 8300000, guid: 9a4bde829e80ef14192b0d53a858f43d, type: 3}
+  - {fileID: 8300000, guid: bb449f4b9d816bb4486976d616f28451, type: 3}
+  - {fileID: 8300000, guid: 0240b8e7908bc91409999582dfc259b3, type: 3}

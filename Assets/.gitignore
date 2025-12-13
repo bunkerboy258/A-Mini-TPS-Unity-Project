@@ -1,0 +1,24 @@
+# Unity默认忽略规则
+/Library/
+/Temp/
+/Obj/
+/Build/
+/Builds/
+/Logs/
+/UserSettings/
+/ProjectSettings/ProjectVersion.txt
+/ProjectSettings/UnityConnectSettings.asset
+*.pidb.meta
+*.pdb
+*.mdb
+*.opendb
+*.pdb.meta
+# 可选：忽略VS/ Rider工程文件
+*.sln
+*.csproj
+*.unityproj
+*.svd
+*.userprefs
+.DS_Store
+.vs/
+.idea/
